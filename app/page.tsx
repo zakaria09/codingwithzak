@@ -5,7 +5,7 @@ import { formatDistance } from "date-fns";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="min-h-screen flex justify-center">
       <div className="pt-20">
         <div className="max-w-lg lg:max-w-3xl bg-white px-12 py-16 rounded-md shadow-md flex justify-between gap-6">
           <div className="flex flex-col ">
@@ -25,8 +25,8 @@ export default function Home() {
             </h1>
             <p className="lg:text-lg text-base">
               With {formatDistance(new Date("2019-06-17"), new Date())} years of
-              experience working as a professional front end developer this channel is
-              dedeicated to helping you to take your next steps on
+              experience working as a professional front end developer this
+              channel is dedeicated to helping you to take your next steps on
               your web dev journey.
             </p>
             <button></button>
